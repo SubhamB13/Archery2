@@ -7,7 +7,7 @@ class playerArcher{
           //this.angle = angle;
           this.height = height;
           this.body = Bodies.rectangle(x, y, this.width, this.height, options);
-          this.image = loadImage("assets/playerArcher.png")
+          this.image = loadImage("playerArcher.png")
           World.add(world, this.body);
     }
 
