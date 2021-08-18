@@ -22,7 +22,7 @@ function setup() {
  
   //Create Player Archer Object
    PlayerArcher = new playerArcher(320,260,100,100)
-   ComputerArcher = new computerArcher(1000,260,100,100)
+   ComputerArcher = new computerArcher(1050,260,100,100)
 
 
   computerBase = new ComputerBase(
